@@ -1,10 +1,17 @@
-import styled from 'styled-components'
+import { CreatedLink } from '../components/CreatedLink'
+import { Form } from '../components/Form'
+import { Header } from '../components/Header'
+import { Layout } from '../components/Layout'
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
 
 export default function Home() {
-  return <Title>My page</Title>
+  return(
+    <>
+    <Header />
+      <Layout title="ShortKy">
+        <Form />
+        <CreatedLink />
+      </Layout>
+    </>
+  )
 }
