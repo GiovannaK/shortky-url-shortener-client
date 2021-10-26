@@ -1,7 +1,7 @@
 import { AppProps } from "next/dist/shared/lib/router/router";
 import { ApiProvider } from "../context/ApiContext";
 import { GlobalStyle } from "../Global/styles";
-import { ToastContainer, Slide } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
