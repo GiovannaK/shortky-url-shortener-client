@@ -11,4 +11,8 @@ export const LinkContainer = styled.div`
 export const ShortedLink = styled.p`
   font-size: 1.5rem;
   color: #5e00ff;
+
+  @media(max-width: 800px) {
+    font-size: 0.8rem;
+  }
 `

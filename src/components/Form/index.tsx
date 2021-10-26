@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Button, ErrorText, Input, InputContainer } from './styles'
 import { useForm } from "react-hook-form";
+import { ApiContext } from '../../context/ApiContext';
 
-type InputProps = {
+export type InputProps = {
   originURL: string
 }
 
 export const Form = () => {
   const { handleSubmit, register, formState: { errors } } = useForm();
-
-  const submit = (values: InputProps) => console.log(values);
+  const { sendLink, loading }: any = useContext(ApiContext)
+  const submit = (values: InputProps) => {
+    sendLink(values);
+  }
 
   return (
     <>
@@ -19,7 +22,7 @@ export const Form = () => {
             required: "Digite um link válido"
           })}
         />
-        <Button type="submit">Encurtar</Button>
+        <Button type="submit">{loading ? 'Enviando...' : 'Encurtar'}</Button>
       </InputContainer>
       <ErrorText>{errors.originURL && errors.originURL.message}</ErrorText>
     </>

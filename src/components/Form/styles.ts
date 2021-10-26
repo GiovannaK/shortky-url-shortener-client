@@ -16,9 +16,10 @@ export const Input = styled.input`
   border-bottom-left-radius: 10px;
   border: none;
   color: #5e00ff;
+  border: 2px solid #5e00ff;
 
   &:focus{
-    border: 2px solid #5e00ff;
+    border: 2px solid #E17900;
   }
 
   @media(max-width: 800px) {
