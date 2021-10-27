@@ -1,34 +1,95 @@
-# TypeScript & Styled Components Next.js example
+# 📃 SHORTKY
 
-This is a really simple project that show the usage of Next.js with TypeScript and Styled Components.
+## SEE PREVIEW HERE: https://shortky.netlify.app/
 
-## Preview
+## Docs: https://shortky.herokuapp.com/swagger/
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+### Server Repo: https://github.com/GiovannaK/shortky-url-shortener
+---
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript-styled-components)
+![Project Image](public/image.png)
+<p align="center">
+  <a href="#description">Description</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#author-info">Author Info</a>
+</p>
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Description
+### ShortKy is a web app to shorten links
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript-styled-components&project-name=with-typescript-styled-components&repository-name=with-typescript-styled-components)
+## Technologies
 
-## How to use it?
+### Front-end
+- React
+- NextJS
+- Styled Components
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+# Features
 
-```bash
-npx create-next-app --example with-typescript-styled-components with-typescript-styled-components-app
-# or
-yarn create next-app --example with-typescript-styled-components with-typescript-styled-components-app
+## PROGRESSIVE WEB APP
+- This application has PWA features
+
+### Flux
+
+- You can type any link
+- Link will be sent to server
+- Short url will be generated and stored on database
+- Short url will be sent to client
+- Finally you can be redirected using short url
+
+---
+## ❗ How To Use
+
+### Run locally
+
+### Clone the project
+
+```html
+git clone https://github.com/GiovannaK/shortky-url-shortener-client
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Assuming you already have NodeJS and npm installed and properly configured: Run the command below to install all required dependencies
 
-## Notes
+```html
+npm install
+```
+### Finally you can run the project
+```html
+npm run dev
+```
 
-This is an amalgamation of the 2 existing examples:
+---
 
-- [with-typescript](https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
-- [with-styled-components](https://github.com/vercel/next.js/tree/canary/examples/with-styled-components)
+## 📌 License
+
+MIT License
+
+Copyright (c) [2020]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Author Info
+
+- Linkedin - [Giovanna Cunha](https://www.linkedin.com/in/giovanna-kelli/)
