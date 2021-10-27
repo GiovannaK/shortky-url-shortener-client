@@ -52,6 +52,8 @@
 git clone https://github.com/GiovannaK/shortky-url-shortener-client
 ```
 
+### Add a .env.local file on root and a key called NEXT_PUBLIC_API_URL, fill information with server address
+
 ### Assuming you already have NodeJS and npm installed and properly configured: Run the command below to install all required dependencies
 
 ```html
